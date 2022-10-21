@@ -27,5 +27,5 @@ Tenho ${num} anos,
 trabalho na Trybe e mando muito em programação!
 #VQV!`;
 };
-console.log(vqv('Levy',30));
+console.log(vqv('Levy', 30));
 module.exports = vqv;
