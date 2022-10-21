@@ -22,9 +22,10 @@ const vqv = (string, num) => {
   if (string === undefined || num === undefined) {
     return undefined;
   }
-  return `Oi, meu nome é ${string}!\n
-  Tenho ${num} anos,\n
-  trabalho na Trybe e mando muito em programação!\n
-  #VQV!`;
+  return `Oi, meu nome é ${string}!
+Tenho ${num} anos,
+trabalho na Trybe e mando muito em programação!
+#VQV!`;
 };
+console.log(vqv('Levy',30));
 module.exports = vqv;
