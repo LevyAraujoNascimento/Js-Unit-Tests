@@ -45,7 +45,7 @@ const calculator = (number1, number2) => {
 };
 
 const arrayGenerator = (type, object) => {
-  switch (type){
+  switch (type) {
     case 'keys': return Object.keys(object);
     case 'values': return Object.values(object); 
     case 'entries': return Object.entries(object);
