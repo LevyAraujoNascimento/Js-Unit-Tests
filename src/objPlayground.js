@@ -40,16 +40,16 @@ const calculator = (number1, number2) => {
     mult: number1 * number2,
     div: Math.floor(number1 / number2),
     sub: number1 - number2,
-  }
+  };
   return valores;
 };
 
 const arrayGenerator = (type, object) => {
-  switch(type){
-    case 'keys': return Object.keys(object) ;
+  switch (type){
+    case 'keys': return Object.keys(object);
     case 'values': return Object.values(object); 
     case 'entries': return Object.entries(object);
-    default: return 'Tipo de chave incorreta!!!' 
+    default: return 'Tipo de chave incorreta!!!'; 
   }
 };
 module.exports = { calculator, arrayGenerator };
