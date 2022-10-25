@@ -41,5 +41,6 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     obj.area = Number(parseFloat(obj.area).toPrecision(4));
     obj.circumference = Number(parseFloat(obj.circumference).toPrecision(4));
     expect(obj).toMatchObject({radius: 3, area: 28.26, circumference: 18.84});
+    //toBeCloseTo
   });
 });
